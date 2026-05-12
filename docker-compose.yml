@@ -8,15 +8,7 @@ services:
       - "8080:80"
     volumes:
       - ./src:/var/www/html
-    # Este comando configura flags, instala mysqli y arregla los permisos de subida
-    command: >
-      sh -c "mkdir -p /var/backups/secret_data && 
-             echo 'FLAG{Post_Explotacion_Master_2026}' > /var/backups/secret_data/root_flag.txt && 
-             echo 'ezequiel:x:1001:1001:FLAG{LFI_Passwd_Master_2026}:/home/ezequiel:/bin/bash' >> /etc/passwd &&
-             mkdir -p /var/www/html/uploads &&
-             chmod -R 777 /var/www/html/uploads &&
-             docker-php-ext-install mysqli && 
-             apache2-foreground"
+      
     depends_on:
       - db
 
