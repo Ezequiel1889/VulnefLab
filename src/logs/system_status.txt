@@ -1,0 +1,9 @@
+--- VULNEFLAB: REPORTES DE INFRAESTRUCTURA ---
+ID_SERVER: ROS-STATION-02
+ESTADO: OPERATIVO
+
+[LOG] Sincronización de logs de sistema completada.
+[LOG] Verificando integridad de particiones... OK.
+[LOG] Servicio Apache2: Estable.
+
+--- EL SISTEMA SE ENCUENTRA BAJO MONITOREO CONSTANTE ---
