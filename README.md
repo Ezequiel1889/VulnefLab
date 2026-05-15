@@ -26,6 +26,9 @@ Para desplegar este laboratorio en tu máquina local:
    
     cd VulnefLab && docker-compose up -d
 
+    ⚠️ Aviso de Responsabilidad (Disclaimer)
+Este entorno ha sido creado con fines estrictamente educativos y de aprendizaje en ciberseguridad ética. El autor no se hace responsable del uso indebido de las técnicas aquí expuestas en sistemas ajenos. Queda terminantemente prohibido utilizar este laboratorio o su código para actividades ilícitas. Se trabaja bajo un entorno controlado y aislado (Docker) para garantizar la seguridad del sistema anfitrión.
+
                         Acceso: http://localhost:8080
 
 Desarrollado por Ezequiel Flammini - Estudiante de Ciberseguridad
